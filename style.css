@@ -34,6 +34,8 @@ a {
 .skills {
     padding: 50px;
     text-align: center;
+    justify-content: center;
+    display: flexbox;
 }
 
 #header {
@@ -41,6 +43,7 @@ a {
     padding: 20px 10px;
     text-align: center;
     background-size: cover;
+
 }
 
 #githubLink {
@@ -75,7 +78,10 @@ a {
     background-color: #f6f6f6;
     color: black;
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #linkedin {
     color: #0278ae;
@@ -86,6 +92,7 @@ a {
 footer a {
    font-size: 20px;
    font-family: 'Source Sans Pro', sans-serif;
+   flex-direction: row;
 }
 footer a:hover{
     color: white;
